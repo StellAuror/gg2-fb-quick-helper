@@ -55,9 +55,9 @@ p1 <- df1 %>%
   labs(
     x = "",
     y = "",
-    fill = "Interviewee Respond",
-    title = "Some Ultra Important Poll",
-    subtitle = "Based on Even More Relevant Studies"
+    title = lorem::ipsum_words(4),
+    subtitle = lorem::ipsum_words(5),
+    fill = "Interviewee Respond"
   ) +
   scale_fill_manual(
     values = c("#03314e", "#07619b", "#077fcd", "#7f7f7f", "#f6f6f6")
